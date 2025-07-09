@@ -1,0 +1,38 @@
+
+.container{
+    background-color: grey;
+    display: flex;
+    border: 2px solid black;
+    width:100%;
+    justify-content:space-around;
+    margin:10px;
+}
+.container2{
+    background-color:blue;
+    display: flex;
+    border: 2px solid black;
+    width:100%;
+    justify-content:space-around;
+    margin:10px;
+}
+
+.item{
+    padding:10px;
+}
+img{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+.content{
+    top:50%;
+    left:30%;
+    position: absolute;
+    font-size: 80px;
+}
+.logo{
+    position: absolute;
+    top:20%;
+    left:20px;
+    font-size:30px;
+}
